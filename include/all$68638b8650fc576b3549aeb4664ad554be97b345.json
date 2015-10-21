@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "tools/schema": {
+            "dev-feature/Adding_a_composer_json": {
+                "name": "tools/schema",
+                "version": "dev-feature/Adding_a_composer_json",
+                "version_normalized": "dev-feature/Adding_a_composer_json",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/shivashanti/codeigniter-schema.git",
+                    "reference": "54c41654ac5003fde9f103ec2b8c0eb608dbd635"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/shivashanti/codeigniter-schema/zipball/54c41654ac5003fde9f103ec2b8c0eb608dbd635",
+                    "reference": "54c41654ac5003fde9f103ec2b8c0eb608dbd635",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.1.2"
+                },
+                "require-dev": {
+                    "php": ">=5.3.3",
+                    "phpdocumentor/phpdocumentor": "~2.8",
+                    "phpunit/phpunit": "~4.8"
+                },
+                "time": "2015-10-21 08:16:53",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Schema": "libraries/"
+                    }
+                },
+                "license": [
+                    "LGPL-2.1+"
+                ],
+                "authors": [
+                    {
+                        "name": "Jamie Rumbelow",
+                        "email": "jamie@jamierumbelow.net",
+                        "homepage": "http://jamierumbelow.net"
+                    }
+                ],
+                "description": "Schema allows you to write your migrations in pure,",
+                "homepage": "https://github.com/jamierumbelow/codeigniter-schema",
+                "keywords": [
+                    "migration"
+                ],
+                "support": {
+                    "source": "https://github.com/shivashanti/codeigniter-schema/tree/feature/Adding_a_composer_json"
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
     "name": "tools/schema",
-    "homepage": "https://github.com/jamierumbelow/codeigniter-schema",
+    "homepage": "https://github.com/shivashanti/codeigniter-schema",
     "description": "Schema allows you to write your migrations in pure,",
     "version":"0.2.0",
     "license": "LGPL-2.1+",
