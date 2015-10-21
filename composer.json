@@ -1,0 +1,34 @@
+{
+    "name": "tools/schema",
+    "homepage": "https://github.com/jamierumbelow/codeigniter-schema",
+    "description": "Schema allows you to write your migrations in pure,",
+    "version":"0.2.0",
+    "license": "LGPL-2.1+",
+    "type": "library",
+    "keywords": [
+        "migration",
+    ],
+    "authors": [
+        {
+            "name": "Jamie Rumbelow",
+            "email": "jamie@jamierumbelow.net",
+            "homepage": "http://jamierumbelow.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.1.2"
+    },
+    "require-dev": {
+        "php": ">=5.3.3",
+        "phpunit/phpunit": "~4.8",
+        "phpdocumentor/phpdocumentor": "~2.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "Schema": "libraries/"
+        }
+    },
+    "config": {
+        "bin-dir": "tools"
+    }
+}
